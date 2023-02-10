@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üzemanyagköltség kalkulátor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Üzemanyag költség kalkulátor</h2>
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/12/46/petrol-despenser-160298_960_720.png" width=150px>
+        <div class="parent">
+          <div class="div1 text">Távolság</div>
+          <div class="div2"><input class="input-field" id="input-km" placeholder="km-ben"></div>
+          <div class="div3 text">Fogyasztás </div>
+          <div class="div4"><input class="input-field" id="consumption" placeholder="l/100km"> </div>
+          <div class="div5 text">1l üzemanyag ára</div>
+          <div class="div6"><input class="input-field" id="fuel-price" placeholder="Ft-ban"> </div>
+          <div class="div7 text">Matricák költsége </div>
+          <div class="div8"><input class="input-field" id="vignette" placeholder="Ft-ban"> </div>
+          <div class="div9 text">Hány fő </div>
+          <div class="div10"><input class="input-field" id="person"> </div>
+        </div>
+        <button class="btn" id="btn">Kalkulál</button><button id="clear-btn">Töröl</button>
+        <p id="result"></p>
+      </div>
+<script src="script.js"></script>    
+</body>
+</html>
